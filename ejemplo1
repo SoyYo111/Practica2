@@ -10,3 +10,9 @@ package Practica2;
  		 int num,cuadrado;
  System.out.print("Introduzca número: ");
  		num=teclado.nextInt();
+ while(num>=0){ 
+
+ 		 System.out.print("Introduzca número: ");
+ 		 num=teclado.nextInt();
+ 		 while(num>=0){ 
+    cuadrado=num*num;

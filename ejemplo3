@@ -10,3 +10,12 @@ public class ejemplo3 {
     }while (c>=1);
     return total;
   }
+
+public int recursivo (int num){
+  if (num==0){
+    return 1;
+  }
+  else{
+    return num*recursivo(num-1);
+  }
+}

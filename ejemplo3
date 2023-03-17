@@ -19,3 +19,6 @@ public int recursivo (int num){
     return num*recursivo(num-1);
   }
 }
+public static void main(String[]ar){
+  
+}

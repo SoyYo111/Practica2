@@ -9,3 +9,5 @@ class Triangulo{
         Scanner teclado = new Scanner(System.in);
         System.out.print("Ingrese base:\t");
         base = teclado.nextFloat();
+ System.out.print("Ingrese altura:\t");
+        altura = teclado.nextFloat();

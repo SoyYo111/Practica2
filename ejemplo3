@@ -1,0 +1,12 @@
+package Practica2;
+
+public class ejemplo3 {
+
+  public int iterativo(int c){
+    int total=1;
+    do{
+      total =total*c;
+      c--;
+    }while (c>=1);
+    return total;
+  }

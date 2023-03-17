@@ -1,7 +1,9 @@
 package Practica2;
+import java.util.*;
 
 public class ejemplo3 {
 
+ Scanner teclado = new Scanner(System.in);
   public int iterativo(int c){
     int total=1;
     do{
@@ -20,5 +22,13 @@ public int recursivo (int num){
   }
 }
 public static void main(String[]ar){
-  
+  Practica2 factorial;
+  factorial=new Practica2();
+  System.out.println("Ingrese el número");
+  int num=teclado.nextInt();
+  int fit=factorial.iterativo(num);
+  int fact=factorial.recursivo(num);
+  System.out.println(fit);
+  System.out.println(fact);
+  }
 }

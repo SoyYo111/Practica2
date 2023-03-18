@@ -13,14 +13,7 @@ public class ejemplo3 {
     return total;
   }
 
-public int recursivo (int num){
-  if (num==0){
-    return 1;
-  }
-  else{
-    return num*recursivo(num-1);
-  }
-}
+
 public static void main(String[]ar){
   Practica2 factorial;
   factorial=new Practica2();

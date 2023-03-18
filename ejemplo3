@@ -3,16 +3,8 @@ import java.util.*;
 
 public class ejemplo3 {
 
- Scanner teclado = new Scanner(System.in);
-  public int iterativo(int c){
-    int total=1;
-    do{
-      total =total*c;
-      c--;
-    }while (c>=1);
-    return total;
-  }
-
+Scanner teclado = new Scanner(System.in);
+  
 public int recursivo (int num){
   if (num==0){
     return 1;

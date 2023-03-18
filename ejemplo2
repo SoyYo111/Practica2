@@ -11,3 +11,9 @@ class Triangulo{
         base = teclado.nextFloat();
  System.out.print("Ingrese altura:\t");
         altura = teclado.nextFloat();
+ resultado = ((base*altura)/2);
+         
+        System.out.print("El area del Triangulo es:\t"+resultado);
+        teclado.close();
+    }
+}

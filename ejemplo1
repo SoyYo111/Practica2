@@ -16,3 +16,12 @@ package Practica2;
  		 num=teclado.nextInt();
  		 while(num>=0){ 
     cuadrado=num*num;
+ System.out.println(num+ "² es igual a "+ cuadrado);
+		 System.out.print("Introduzca otro número: ");
+		 num=teclado.nextInt();
+		 } 
+		 System.out.print("Fin... ");
+		 teclado.close();
+	}
+
+}
